@@ -103,6 +103,7 @@ export const HomeHeader = () =>{
         <NavLink className={({isActive}:{isActive:boolean}) => isActive?'md:text-cyan-700':'md:text-black'+`block py-2 px-3  bg-cyan-700 rounded md:bg-transparent  md:p-0 dark: md:dark:text-cyan-500`} to="/categories">Categories</NavLink>
         <NavLink className={({isActive}:{isActive:boolean}) => isActive?'md:text-cyan-700':'md:text-black'+`block py-2 px-3  bg-cyan-700 rounded md:bg-transparent  md:p-0 dark: md:dark:text-cyan-500`} to="/contacts">Contacts</NavLink>
         <NavLink className={({isActive}:{isActive:boolean}) => isActive?'md:text-cyan-700':'md:text-black'+`block py-2 px-3  bg-cyan-700 rounded md:bg-transparent  md:p-0 dark: md:dark:text-cyan-500`} to="/aboutus">About Us</NavLink>
+        <NavLink className={({isActive}:{isActive:boolean}) => isActive?'md:text-cyan-700':'md:text-black'+`block py-2 px-3  bg-cyan-700 rounded md:bg-transparent  md:p-0 dark: md:dark:text-cyan-500`} to="/chat">Chat</NavLink>
         
         </Navbar.Collapse>
       </Navbar>

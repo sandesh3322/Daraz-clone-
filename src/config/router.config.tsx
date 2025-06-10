@@ -23,6 +23,7 @@ import { BannerListingPage , BannerCreatePage , BannerEditPage} from "../pages/b
 import { BrandCreatePage, BrandEditPage, BrandListingPage } from "../pages/brand";
 import { useDispatch } from "react-redux";
 import { getLoggedInUserRedux, setloggedInUserForRedux } from "../reducer/user.reducer";
+import ChatView from "../pages/chat/chat-view.page";
 // import RegisterPage from "../pages/auth/register/register.page";
 // import  LoginPage  from "../pages/auth/login/login.page";
 // import UserActivation from "../pages/auth/activate/activate-user.page";
@@ -84,6 +85,8 @@ const RouterConfig =() =>{
             <Route path="/licensing" element={<Licensing/>}/>
             <Route path="/login" element={<LoginPage/>}/>
             <Route path ="/auth/activate/:token" element={<UserActivation/>}/>
+            <Route path ="/chat" element={<ChatView/>}/>
+            
 
             <Route path="*"  element={<NotFoundError url="/" label="Home"/>}/>
          
